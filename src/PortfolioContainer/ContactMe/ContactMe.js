@@ -111,6 +111,7 @@ export default function ContactMe(props) {
             </div>
           </form>
         </div>
+        <p className="information">Now i am working on backend so this section is not workimg properly</p>
       </div>
     </div>
   );

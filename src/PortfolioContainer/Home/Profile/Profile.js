@@ -56,9 +56,10 @@ export default function Profile() {
             </span>
           </div>
 
+
           <div className="profile-options">
             <button className="btn primary-btn"> Hire Me </button>
-            <a href="ehizcv.pdf" download="Ehiedu Ehizcv.pdf">
+            <a href="MUHAMMAD FAZIL-RESUME.pdf" download="MUHAMMAD FAZIL-RESUME.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>
