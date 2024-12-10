@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personel-portfolio/static/css/main.2c75c171.css",
-    "main.js": "/personel-portfolio/static/js/main.04e9322e.js",
+    "main.css": "/personel-portfolio/static/css/main.211510a3.css",
+    "main.js": "/personel-portfolio/static/js/main.bdba64fb.js",
     "static/js/453.1407b060.chunk.js": "/personel-portfolio/static/js/453.1407b060.chunk.js",
     "static/media/aboutme-photo.jpg": "/personel-portfolio/static/media/aboutme-photo.bba2fcef131a1f14c220.jpg",
     "static/media/profile-photo.jpg": "/personel-portfolio/static/media/profile-photo.05b1f0f746c4811dcb60.jpg",
@@ -17,6 +17,8 @@
     "static/media/Poppins-Bold.ttf": "/personel-portfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
     "static/media/Poppins-ExtraBold.ttf": "/personel-portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/mailz.jpeg": "/personel-portfolio/static/media/mailz.d13d5e32cbc73884b526.jpeg",
+    "static/media/saloon-landingPage2.png": "/personel-portfolio/static/media/saloon-landingPage2.4248443ad0029caa6863.png",
+    "static/media/insurance-landingPage3.png": "/personel-portfolio/static/media/insurance-landingPage3.46d4ae74e1ff29b98c85.png",
     "index.html": "/personel-portfolio/index.html",
     "static/media/programming-skills.svg": "/personel-portfolio/static/media/programming-skills.d19983a9bee884277ffa.svg",
     "static/media/projects.svg": "/personel-portfolio/static/media/projects.2b352a52b0588dab62f5.svg",
@@ -24,12 +26,12 @@
     "static/media/education.svg": "/personel-portfolio/static/media/education.10cfa28a40119ebd70cf.svg",
     "static/media/work-history.svg": "/personel-portfolio/static/media/work-history.a566475dedb99dea4bb8.svg",
     "static/media/wave.svg": "/personel-portfolio/static/media/wave.4c48f886cddb4f29707a106065fc2c49.svg",
-    "main.2c75c171.css.map": "/personel-portfolio/static/css/main.2c75c171.css.map",
-    "main.04e9322e.js.map": "/personel-portfolio/static/js/main.04e9322e.js.map",
+    "main.211510a3.css.map": "/personel-portfolio/static/css/main.211510a3.css.map",
+    "main.bdba64fb.js.map": "/personel-portfolio/static/js/main.bdba64fb.js.map",
     "453.1407b060.chunk.js.map": "/personel-portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c75c171.css",
-    "static/js/main.04e9322e.js"
+    "static/css/main.211510a3.css",
+    "static/js/main.bdba64fb.js"
   ]
 }
