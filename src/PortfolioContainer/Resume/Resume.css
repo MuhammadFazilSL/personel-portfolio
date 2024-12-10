@@ -232,3 +232,15 @@
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .resume-container {
+    margin: 60px 0 0 0;
+  }
+  .bullet-icons {
+    height: 100%;
+  }
+  .resume-bullets {
+    box-shadow: none;
+  }
+}

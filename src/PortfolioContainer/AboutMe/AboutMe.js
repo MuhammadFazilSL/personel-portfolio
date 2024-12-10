@@ -43,12 +43,6 @@ export default function AboutMe() {
               </div>
               {renderHighlight()}
             </div>
-            <div className="about-me-options">
-              <button className="btn primary-btn"> Hire Me </button>
-              <a href="ehizcv.pdf" download="Ehiedu Ehizcv.pdf">
-                <button className="btn highlighted-btn">Get Resume</button>
-              </a>
-            </div>
           </div>
         </div>
       </div>

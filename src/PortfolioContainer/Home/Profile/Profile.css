@@ -86,8 +86,8 @@
   .profile-details-name {
     font-size: 20px;
   }
-  .profile-details-role .primary-text {
-    font: 12px;
+  .profile-details-role>.primary-text {
+    font-size: 12px;
   }
   .profile-options .btn {
     width: 120px;
@@ -111,7 +111,7 @@
     margin: 40px 0 0 0;
   }
   .profile-options {
-    display: flex;
+    display: block;
     justify-content: space-between;
   }
   .proflie-details {
@@ -134,5 +134,13 @@
   }
   .proflie-details {
     width: 95%;
+  }
+  .profile-details-role>.primary-text>h1 {
+    height: auto;
+    font-size: 28px;
+  }
+  .profile-options {
+    display: block;
+    margin-bottom: 15px;
   }
 }

@@ -80,3 +80,11 @@
     width: 100%;
   }
 }
+@media only screen and (max-width: 375px) {
+  .about-me-container {
+    margin: 25px 0 0 0;
+  }
+  .about-me-highlights {
+    margin: 15px 0;
+  }
+}

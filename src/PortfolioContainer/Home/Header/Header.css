@@ -69,7 +69,7 @@
   .header-options {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     left: -100%;
     transition: all 0.8s ease-out;
     top: 0px;
@@ -95,5 +95,16 @@
   .show-hamburger-options {
     left: 0;
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .header-options {
+  width: 55%;
+}
+}
+@media only screen and (max-width: 450px) {
+  .header-options {
+    width: 85%;
   }
 }

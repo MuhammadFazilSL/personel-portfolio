@@ -128,14 +128,11 @@ const Resume = () => {
       <ResumeHeading
         heading={"FSD Certificate"}
         subHeading={"Guvi"}
-        fromDate={"01-09-2023"}
-        toDate={"01-11-2022"}
       />
 
       <ResumeHeading
         heading={"Cascading Style Sheet"}
-        subHeading={"Hacker Rank"}
-        fromDate={"15-05-2023"}
+        subHeading={"Hacker Rank"}  
       />
     
     </div>,

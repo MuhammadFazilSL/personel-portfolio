@@ -102,3 +102,9 @@
   font-size: 14px;
   font-family: "Poppins SemiBold";
 }
+
+@media only screen and (max-width: 375px) {
+  .project-section>.container>.row {
+    gap: 15px;
+  }
+}

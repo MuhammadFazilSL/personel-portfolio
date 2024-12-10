@@ -8,10 +8,23 @@ import shape from "../../../src/img/Project/shape-bg.png";
 import project1 from "../../../src/img/Project/project-5.png";
 import project3 from "../../../src/img/Project/project-4.png";
 import project2 from "../../../src/img/Project/project-10.png";
+import saloonLandingPage from "../../../src/img/Project/saloon-landingPage2.png"
+import insuranceLandingPage from "../../../src/img/Project/insurance-landingPage3.png"
+
 
 export default function Projects() {
  
   const projectsDetails = [
+   
+     {
+      title: "Saloon Landing Page",
+      img: saloonLandingPage,
+      description:
+        "Discover & Book local Beauty Salons",
+      subHeading:
+        "Technologies Used: React Js",
+      link: "https://muhammadfazilsl.github.io/saloonwebsite-demo/"
+    },
     {
       title: "Minimal Admin Dashboard",
       img: project1,
@@ -20,23 +33,14 @@ export default function Projects() {
       subHeading: "Technologies Used: React JS",
       link: "https://muhammadfazilsl.github.io/dashboard-demo-1/"
     }, 
-     {
-      title: "Ecommerce Website ",
-      duration: { fromDate: "2020", toDate: "2021" },
-      img: project2,
-      description:
-        "Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
-      subHeading:
-        "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
-    },
     {
-      title: "CRM Project",
-      img: project3,
+      title: "Insurance Landing Page",
+      img: insuranceLandingPage,
       description:
-        "CRM Dashboard for Small scale business to moniter our sales",
+        "Find Your Secure Future In Gmat",
       subHeading:
-        "Technologies Used:  React Native, Mongo DB, Express Js, Node Js, Redux.",
-      link: "https://muhammadfazilsl.github.io/dashboard-2/"
+        "Technologies Used:  React JS",
+      link: "https://muhammadfazilsl.github.io/insurance-website-demo/"
     },
   
   ];
@@ -58,11 +62,8 @@ export default function Projects() {
             <p>{projects.title}</p>
             <p>{projects.description}</p>
             <p>{projects.subHeading}</p>
-            { index === 1 ?
-              <></>
-              :
-              <a href={projects.link} target="blank">visit</a>
-            }
+           
+            <a href={projects.link} target="blank">visit</a>
             </div>
                 </div>
               ))

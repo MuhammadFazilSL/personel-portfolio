@@ -40,7 +40,7 @@ export default function Header() {
        <div
         
       >
-        <span>{Screen.screen_name}</span>
+        <span  onClick={() => setShowHeaderOptions(!showHeaderOptions)}>{Screen.screen_name}</span>
       </div>
      </Link>
     ));
